@@ -3026,13 +3026,16 @@ input, select, textarea {
 			}
 
 			#header .actions:after {
-				background: #ffffff;
-				content: '';
-				height: 100vh;
-				left: 50%;
-				position: absolute;
-				top: 100%;
-				width: 1px;
+			    content: '';
+			    height: 145;
+			    width: 125;
+			    left: 50%;
+			    position: absolute;
+			    top: 100%;
+			    transform: translateX(-50%);  /* This centers the image */
+			    background-image: url("whiskyJAM.github.io/assets/css/images/mole2.png");
+			    background-repeat: no-repeat;
+			    background-size: contain;
 			}
 
 		#header .inner {

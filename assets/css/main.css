@@ -3035,7 +3035,7 @@ input, select, textarea {
 			    width: 125px;
 			    left: 50%;
 			    position: absolute;
-			    bottom: 0px;
+			    bottom: 145px;
 			    transform: translateX(-50%);
 			    background-image: url("/assets/css/images/mole2.png");
 			    background-repeat: no-repeat;

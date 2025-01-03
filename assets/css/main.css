@@ -3026,18 +3026,23 @@ input, select, textarea {
 			}
 
 			#header .actions:after {
+			    display: none;  /* This will remove the line completely */
+			}
+
+			#header:after {
 			    content: '';
-			    height: 145px;  /* Added px unit */
-			    width: 125px;   /* Added px unit */
+			    height: 145px;
+			    width: 125px;
 			    left: 50%;
 			    position: absolute;
-			    top: 100%;
+			    bottom: -145px;
 			    transform: translateX(-50%);
-			    background-image: url("images/mole2.png");
+			    background-image: url("/assets/css/images/mole2.png");
 			    background-repeat: no-repeat;
 			    background-size: contain;
-			    background-color: transparent;  /* Ensures no white line */
-			    border: none;  /* Removes any potential border */
+			    background-color: transparent;
+			    border: none;
+			    z-index: 10;
 			}
 
 		#header .inner {

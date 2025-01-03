@@ -2913,14 +2913,14 @@ input, select, textarea {
 /* Header */
 
 		#header {
-		    padding: 9em 0;
-		    background-color: #9ccfd7; /* Solid background color */
+		    padding: 9em 0 0 0; /* Removed bottom padding to ensure mole sits at edge */
+		    background-color: #9ccfd7;
 		    color: rgba(255, 255, 255, 0.75);
 		    background-attachment: fixed;
-		    background-image: url("whiskyJAM.github.io/assets/css/images/mole.png"); /* Add your image path here */
-		     background-position: bottom 30px left; /* Position image at bottom-left */
-		    background-size: auto; /* Adjust size if needed */
-		    background-repeat: no-repeat; /* Ensure image doesn't repeat */
+		    background-image: url("whiskyJAM.github.io/assets/css/images/mole.png");
+		    background-position: left 30px bottom; /* Adjusted to position at bottom left */
+		    background-size: auto;
+		    background-repeat: no-repeat;
 		    overflow: hidden;
 		    position: relative;
 		    text-align: center;
@@ -3073,22 +3073,21 @@ input, select, textarea {
 				opacity: 1;
 			}
 
-#header:after {
-    -moz-transition: opacity 1s ease;
-    -webkit-transition: opacity 1s ease;
-    -ms-transition: opacity 1s ease;
-    transition: opacity 1s ease;
-    
-    background-color: #000000; /* Set to solid black */
-    
-    content: ''; 
-    height: 100%;
-    left: 0;
-    opacity: 0; 
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
+			#header:after {
+			    -moz-transition: opacity 1.5s ease-in-out;
+			    -webkit-transition: opacity 1.5s ease-in-out;
+			    -ms-transition: opacity 1.5s ease-in-out;
+			    transition: opacity 1.5s ease-in-out;
+			    background-color: #000000;
+			    content: '';
+			    height: 100%;
+			    left: 0;
+			    opacity: 0;
+			    position: absolute;
+			    top: 0;
+			    width: 100%;
+			    z-index: 1;
+			}
 
 
 	body.is-preload #header .inner {

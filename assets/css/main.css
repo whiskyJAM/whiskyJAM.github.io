@@ -3031,8 +3031,8 @@ input, select, textarea {
 			    background-repeat: no-repeat;
 			    background-position: center;
 			    display: inline-block;
-			    width: 4em;  /* Adjust size as needed */
-			    height: 4em; /* Adjust size as needed */
+			    width: 10em;  /* Adjust size as needed */
+			    height: 10em; /* Adjust size as needed */
 			}
 
 		#header .inner {

@@ -3030,7 +3030,13 @@ input, select, textarea {
 			}
 
 			#header .actions:after {
-			    display: none;
+				background: #ffffff;
+				content: '';
+				height: 100vh;
+				left: 50%;
+				position: absolute;
+				top: 100%;
+				width: 1px;
 			}
 
 		#header .inner {
@@ -3067,19 +3073,20 @@ input, select, textarea {
 				opacity: 1;
 			}
 
-			#header::after {
+			#header:after {
+			    -moz-transition: opacity 1.5s ease-in-out;
+			    -webkit-transition: opacity 1.5s ease-in-out;
+			    -ms-transition: opacity 1.5s ease-in-out;
+			    transition: opacity 1.5s ease-in-out;
+			    background-color: #000000;
 			    content: '';
+			    height: 100%;
+			    left: 0;
+			    opacity: 0;
 			    position: absolute;
-			    bottom: 0;
-			    left: 50%;
-			    transform: translateX(-50%);
-			    width: 200px; /* Adjust based on your image size */
-			    height: 200px; /* Adjust based on your image size */
-			    background-image: url('whiskyJAM.github.io/assets/css/images/mole2.png'); /* Update with your image path */
-			    background-repeat: no-repeat;
-			    background-position: center bottom;
-			    background-size: contain;
-			    z-index: 2; /* Ensure it appears above other elements */
+			    top: 0;
+			    width: 100%;
+			    z-index: 1;
 			}
 
 

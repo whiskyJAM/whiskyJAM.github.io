@@ -3029,10 +3029,10 @@ input, select, textarea {
 			    background-image: url('/assets/css/images/title.png');
 			    background-size: contain;
 			    background-repeat: no-repeat;
-			    background-position: center;
+			    background-position: bottom;
 			    display: inline-block;
-			    width: 50em;  /* Adjust size as needed */
-			    height: 13em; /* Adjust size as needed */
+			    width: 20em;  /* Adjust size as needed */
+			    height: 10em; /* Adjust size as needed */
 			}
 
 		#header .inner {

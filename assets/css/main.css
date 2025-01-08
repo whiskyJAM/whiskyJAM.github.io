@@ -3208,7 +3208,7 @@ input, select, textarea {
 		#footer .copyright {
 			font-size: 0.8em;
 			list-style: none;
-			margin: 2em 0 0 0;
+			margin: 0em 0 0 0;
 			padding: 0;
 		}
 
@@ -3467,7 +3467,7 @@ input, select, textarea {
 			}
 
 				#footer .copyright {
-					margin: 1.5em 0 0 0;
+					margin: 0em 0 0 0;
 				}
 
 					#footer .copyright li {

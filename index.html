@@ -32,17 +32,23 @@
 				opacity: 0.9;
 			}
 			    .game-showcase .container {
-			        position: absolute;
-			        top: 0;
-			        left: 0;
-			        width: 100%;
-			        height: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin: 0 !important; /* Override the template margin */
+				max-width: 100% !important; /* Override any max-width restrictions */
+        			border: none;
 			    }
 			.game-showcase img {
 			        width: 100%;
 			        height: 100%;
 			        object-fit: cover;
-			        object-position: center 30%; /* Adjust vertical position (30% from top) */
+			        object-position: center 65%; /* Adjust vertical position (30% from top) */
 			        margin: 0;
 			}
 			#footer {

@@ -3016,7 +3016,7 @@ input, select, textarea {
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			margin-top: 2.5em;
+			margin-top: 1.5em;
 			margin-left: 0;
 			position: relative;
 		}
@@ -3041,7 +3041,7 @@ input, select, textarea {
 			    background-repeat: no-repeat;
 			    background-position: center;
 			    display: inline-block;
-			    width: 10em;  /* Adjust size as needed */
+			    width: 8em;  /* Adjust size as needed */
 			    height: 3em;  /* Adjust size as needed */
 			}
 			
@@ -3051,15 +3051,21 @@ input, select, textarea {
 			    background-repeat: no-repeat;
 			    background-position: center;
 			    display: inline-block;
-			    width: 10em;  /* Adjust size as needed */
+			    width: 8em;  /* Adjust size as needed */
 			    height: 3em;  /* Adjust size as needed */
+			}
+
+			.store-text {
+			    color: #ffffff;  /* Assuming white text, adjust as needed */
+			    font-size: 0.9em;  /* Adjust size as needed */
+			    text-align: center;
 			}
 			
 			.linked-images {
-			    margin: 2em 0;
+			    margin: 0em 0;
 			    display: flex;
 			    justify-content: center;
-			    gap: 2em;
+			    gap: 0em;
 			}
 
 		#header .inner {

@@ -3035,6 +3035,33 @@ input, select, textarea {
 			    height: 10em; /* Adjust size as needed */
 			}
 
+			.icon.app-store {
+			    background-image: url('/assets/css/images/apple.png');
+			    background-size: contain;
+			    background-repeat: no-repeat;
+			    background-position: center;
+			    display: inline-block;
+			    width: 10em;  /* Adjust size as needed */
+			    height: 3em;  /* Adjust size as needed */
+			}
+			
+			.icon.play-store {
+			    background-image: url('/assets/css/images/android.png');
+			    background-size: contain;
+			    background-repeat: no-repeat;
+			    background-position: center;
+			    display: inline-block;
+			    width: 10em;  /* Adjust size as needed */
+			    height: 3em;  /* Adjust size as needed */
+			}
+			
+			.linked-images {
+			    margin: 2em 0;
+			    display: flex;
+			    justify-content: center;
+			    gap: 2em;
+			}
+
 		#header .inner {
 			-moz-transition: -moz-transform 1.5s ease, opacity 2s ease;
 			-webkit-transition: -webkit-transform 1.5s ease, opacity 2s ease;
